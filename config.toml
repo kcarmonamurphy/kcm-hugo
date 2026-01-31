@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
     [languages.en.params]
       tagline = "Engineer. Coder. Problem Solver."
-      hero_description = "Senior Software Engineer with over 10 years of experience. Web App development using React, Ember.js and Typescript on the frontend, Rails, Django and Node.js on the backend. Believer in thorough automated tests and documentation."
+      hero_description = "Full Stack Senior Software Engineer with over 10 years of professional experience writing high-quality software that is well tested and documented. Language agnostic & clear communicator within and across teams."
       hero_location = "Moncton, New Brunswick"
       collab_tags = [
         "Full Stack Development",
@@ -28,21 +28,6 @@ defaultContentLanguageInSubdir = false
         "LLM-based Solutions",
         "PostgreSQL & Data Pipelines",
         "Agile Scrum"
-      ]
-  [languages.fr]
-    contentDir = "content/fr"
-    languageName = "Français"
-    weight = 3
-    [languages.fr.params]
-      tagline = "Ingénieur. Codeur. Résolveur de problèmes."
-      hero_description = "Ingénieur structure et développeur logiciel avec plus de 14 ans d'expérience dans l'architecture, l'ingénierie et la construction (AEC), développant des solutions intelligentes grâce à l'IA/ML pour résoudre des problèmes complexes."
-      hero_location = "Montréal, Canada"
-      collab_tags = [
-        "Solutions IA/ML",
-        "Logiciels d'ingénierie",
-        "R&D et Innovation",
-        "Leadership technique",
-        "Technologie de construction"
       ]
 
 [build]
@@ -68,8 +53,7 @@ calendly_height = "700px"
 copyright = "© 2026 | Kevin Carmona-Murphy"
 
 
-resume_url_en = "/files/Felipe_Cordero_CV_English_version.pdf"
-resume_url_fr = "/files/Felipe_Cordero_CV_French_version.pdf"
+resume_url_en = "/files/2026 Resumé Kevin Carmona-Murphy.pdf"
 resume_label = "View CV"
 
 # Contact Form Configuration

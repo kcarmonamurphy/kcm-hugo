@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
 
 // Local development server to mock the Vercel serverless function
 // Run this alongside Hugo server for local development

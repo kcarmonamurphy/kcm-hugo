@@ -3,8 +3,8 @@ title: "About"
 type: "homepage"
 featured_image: "/images/felipe-cordero-profile.jpeg"
 intro: >-
-  Senior Software Engineer with over 10 years of experience. Web App development using React, Ember.js and Typescript on the frontend, Rails, Django and Node.js on the backend. Believer in thorough automated tests and documentation.
-
+ Full Stack Senior Software Engineer with over 10 years of professional experience writing high-quality software that is well tested and documented. Language agnostic & clear communicator within and across teams.
+ 
 study: >-
   Currently based in **Montréal** 🇨🇦, I'm deepening my skills in **Artificial Intelligence and Machine Learning** 🤖 at **Collège LaSalle**. I work with **Python** 🐍, **PyTorch**, and **predictive modeling** 📊 to build intelligent systems that bridge the gap between engineering and data science.
 

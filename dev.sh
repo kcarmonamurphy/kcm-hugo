@@ -4,9 +4,13 @@
 
 echo "🚀 Starting local development environment..."
 
+# Preprocess Tailwind
+echo "🎨 Preprocessing Tailwind..."
+bun run build:css
+
 # Start the local API server in the background
 echo "📡 Starting local API server..."
-node local-dev-server.js &
+bun local-dev-server.js &
 API_PID=$!
 
 # Wait a moment for the API server to start
@@ -14,7 +18,7 @@ sleep 2
 
 # Start Hugo server
 echo "🌐 Starting Hugo server..."
-hugo server --config config.toml,config.local.toml --baseURL "http://localhost:1313/" --disableFastRender
+bun run dev
 
 # Cleanup function
 cleanup() {

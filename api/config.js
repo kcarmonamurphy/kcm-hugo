@@ -1,5 +1,5 @@
-// Vercel serverless function to securely provide API configuration
-// This function runs on Vercel's edge and has access to environment variables
+// Retrieves Pexels API Key and Formspree Endpoint variables from config.local.toml
+// On production, these values are retrieved from GitHub secrets and injected into the build script.
 
 export default function handler(req, res) {
   // Only allow GET requests
