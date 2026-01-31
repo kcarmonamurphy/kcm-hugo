@@ -1,8 +1,6 @@
 public/
 node_modules/
-package-lock.json
 yarn-error.log
-yarn.lock
 .DS_Store
 *.log
 *.env
@@ -18,7 +16,6 @@ hugo_stats.json
 *~
 Thumbs.db
 desktop.ini
-.hugo_build.lock
 .env.*
 config.local.toml
 .vercel
