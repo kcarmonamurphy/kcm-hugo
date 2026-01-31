@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = false
     languageName = "English"
     weight = 1
     [languages.en.params]
-      tagline = "Engineer. Coder. Problem Solver."
+      tagline = "Software Engineer. Systems Architect. Problem Solver."
       hero_description = "Full Stack Senior Software Engineer with over 10 years of professional experience writing high-quality software that is well tested and documented. Language agnostic & clear communicator within and across teams."
       hero_location = "Moncton, New Brunswick"
       collab_tags = [
@@ -114,11 +114,11 @@ sectionPagesMenu = 'main'
   #   second_color = "#E52521"  # Mario Red – subtle accent, inspired by Super Mario
   #   third_color = "#3CB043"   # Luigi Green – subtle accent, inspired by Luigi
   
-  # [[params.color_palettes.palette]]
-  #   name = "ocean"
-  #   main_color = "#1E40AF"    # Vibrant Blue – energetic and modern
-  #   second_color = "#06B6D4"  # Cyan – fresh and innovative
-  #   third_color = "#10B981"   # Emerald – growth and success
+  [[params.color_palettes.palette]]
+    name = "ocean"
+    main_color = "#1E40AF"    # Vibrant Blue – energetic and modern
+    second_color = "#06B6D4"  # Cyan – fresh and innovative
+    third_color = "#10B981"   # Emerald – growth and success
   
   # [[params.color_palettes.palette]]
   #   name = "sunset"

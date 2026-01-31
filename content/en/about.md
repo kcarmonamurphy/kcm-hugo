@@ -4,7 +4,7 @@ type: "homepage"
 featured_image: "/images/felipe-cordero-profile.jpeg"
 intro: >-
  Full Stack Senior Software Engineer with over 10 years of professional experience writing high-quality software that is well tested and documented. Language agnostic & clear communicator within and across teams.
- 
+
 study: >-
   Currently based in **Montréal** 🇨🇦, I'm deepening my skills in **Artificial Intelligence and Machine Learning** 🤖 at **Collège LaSalle**. I work with **Python** 🐍, **PyTorch**, and **predictive modeling** 📊 to build intelligent systems that bridge the gap between engineering and data science.
 
@@ -21,28 +21,23 @@ personal: >-
 quickfacts:
   - icon: "briefcase"
     title: "Current Role"
-    value: "🤖 AI and Full Stack Developer at <a href=\"https://fireraven.ai\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Fireraven</strong></a>"
+    value: "🔦 Presently seeking a new opportunity 🥂"
   - icon: "graduation-cap"
     title: "Education"
-    value: "🏗️ <a href=\"https://uchile.cl/\" target=\"_blank\" rel=\"noopener noreferrer\">University of Chile</a>, **Bachelor's Degree in Civil Engineering**<br>🤖 <a href=\"https://lasallecollege.lcieducation.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">Collège LaSalle Montréal</a>, **AEC: Artificial Intelligence and Machine Learning**"
-  - icon: "award"
-    title: "Recent Achievement"
-    value: "🏆 Recipient of the <a href=\"/blog/academic-excellence-recognition/\" target=\"_blank\" rel=\"noopener\">Academic Excellence Scholarship</a> 🎓 sponsored by ✈️ Air Canada at Collège LaSalle Montréal (2025) 🎉"
+    value: "🎓 <a href=\"https://mcmaster.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">McMaster University</a>, **B.Eng, Software Engineering**<br>"
   - icon: "language"
     title: "Languages"
     value: |
       - 🇬🇧 English (Native)
       - 🇫🇷 French (Fluent)
+      - 🇧🇷 Portuguese (Fluent)
   - icon: "heart"
     title: "Interests"
     value: |
-      - ♟️ Chess
-      - 🎾 Tennis
       - 🚴 Cycling
-      - 🏊‍♂️ Swimming
-      - 👨‍🍳 Cooking
-      - 🥁 Drumming
-      - 📸 Photography
       - ✈️ Traveling
       - 📚 Reading
+      - 🪚 Carpentry
+      - 🔌 Electrical
+      - 🎸 Guitar
 ---
