@@ -24,10 +24,10 @@ defaultContentLanguageInSubdir = false
       hero_location = "Moncton, New Brunswick"
       collab_tags = [
         "Full Stack Development",
-        "AI Security & Compliance",
-        "LLM-based Solutions",
-        "PostgreSQL & Data Pipelines",
-        "Agile Scrum"
+        "Container Orchestration",
+        "App Performance Optimization",
+        "Automated Unit/Integration Testing",
+        "Cloud Providers"
       ]
 
 [build]
