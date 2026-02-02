@@ -21,4 +21,4 @@ config.local.toml
 .vercel
 
 bun.*
-static/
+themes/**/static/
