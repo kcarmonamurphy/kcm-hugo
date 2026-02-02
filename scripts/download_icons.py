@@ -8,18 +8,20 @@ icons = {
     "ant": "logos:ant-design",
     "apache": "logos:apache",
     "react": "logos:react",
-    "aws": "logos:aws",
+    "aws": "skill-icons:aws-light",
     "bootstrap": "logos:bootstrap",
     "chart-line": "flat-color-icons:line-chart",
     "css3": "logos:css-3",
     "database": "flat-color-icons:database",
     "django": "logos:django-icon",
-    "djangorest": "devicon-plain:djangorest",
+    "djangorest": "devicon-plain:djangorest-wordmark",
     "docker": "logos:docker-icon",
     "dotnetcore": "logos:dotnet",
     "elasticsearch": "logos:elasticsearch",
+    "elk": "simple-icons:elk",
     "ember": "vscode-icons:file-type-ember",
     "express": "skill-icons:expressjs-light",
+    "copilot": "devicon:githubcopilot-wordmark",
     "fastapi": "logos:fastapi-icon",
     "fastly": "logos:fastly",
     "firebase": "logos:firebase-icon",
@@ -27,7 +29,7 @@ icons = {
     "nextjs": "logos:nextjs-icon",
     "gcp": "logos:google-cloud",
     "git": "logos:git-icon",
-    "github": "mdi:github",
+    "github": "skill-icons:github-light",
     "gitlab": "material-icon-theme:gitlab",
     "go": "logos:go",
     "google": "logos:google-icon",
@@ -37,11 +39,12 @@ icons = {
     "hugo": "devicon:hugo",
     "jenkins": "logos:jenkins",
     "js": "logos:javascript",
+    "java": "skill-icons:java-dark",
     "jupyter": "logos:jupyter",
     "kubernetes": "logos:kubernetes",
     "launchdarkly": "logos:launchdarkly-icon",
     "linux": "logos:linux-tux",
-    "mysql": "logos:mysql-icon",
+    "mysql": "logos:mysql",
     "neo4j": "vscode-icons:file-type-neo4j",
     "nginx": "logos:nginx",
     "nixos": "devicon:nixos",
@@ -64,7 +67,12 @@ icons = {
     "vscode": "logos:visual-studio-code",
     "tailwind": "logos:tailwindcss-icon",
     "vite": "logos:vitejs",
-    "zustand": "devicon:zustand"
+    "zustand": "devicon:zustand",
+    "donejs": "file-icons:donejs",
+    "sinatra": "logos:sinatra",
+    "progress": "vscode-icons:file-type-progress",
+    "antigravity": "material-symbols:antigravity-outline",
+    "proxmox": "devicon-plain:proxmox-wordmark"
 }
 
 # Delete icons folder
@@ -94,7 +102,7 @@ os.makedirs(directory_path, exist_ok=True)
 
 for name, slug in icons.items():
     prefix, icon_name = slug.split(":")
-    url = f"https://api.iconify.design/{prefix}/{icon_name}.svg?width=56&height=56"
+    url = f"https://api.iconify.design/{prefix}/{icon_name}.svg?width=56&height=56&color=%23dddddd"
     print(f"Fetching {name} from {url}...")
     try:
         response = requests.get(url)
