@@ -22,3 +22,5 @@ config.local.toml
 
 bun.*
 themes/**/static/
+
+scripts/log*
