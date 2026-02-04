@@ -15,6 +15,23 @@ positions:
     industry: "Civil Infrastructure"
     location: "Toronto / Remote"
     company_description: "AI-powered predictive intelligence company providing sales intelligence for the North American public infrastructure market"
+    tech_stack:
+      - python
+      - django
+      - gcp
+      - react
+      - javascript
+      - typescript
+      - mysql
+      - ant
+      - playwright
+      - terraform
+      - elasticsearch
+      - elk
+      - launchdarkly
+      - reactquery
+      - jest
+      - ai
     bullet_points:
       - Architected a scalable automated email scheduling and delivery feature end to end, leveraging GCP Cloud Tasks/Scheduler to eliminate manual preparation and sending of 100s of personalized emails
       - Collaborated with PMs and CTO to gather requirements, scope + sequence tickets and write technical documentation for features which streamlined internal workflows and boosted platform engagement
@@ -30,6 +47,15 @@ positions:
     industry: "POS Financing"
     location: "Toronto"
     company_description: "POS financing provider in the home improvement, vehicle, and retail sectors which offers affordable monthly payment plans to business to attract more customers"
+    tech_stack:
+      - rails
+      - tailwind
+      - ember
+      - rspec
+      - gitlab
+      - aws
+      - jquery
+      - browserstack
     bullet_points:
       - Delivered end-to-end features for two core lines of business; transitioning a legacy PHP lead gen system to a greenfield Rails + Ember.js rebuild and scaling a POS financing platform to support increased transaction volume
       - Boosted developer velocity by engineering a reusable and accessible component library; integrated automated unit testing and interactive Storybook-like documentation to reduce redundant UI development
@@ -42,6 +68,19 @@ positions:
     industry: "Accounting for Small Businesses"
     location: "Toronto"
     company_description: "Cloud-based accounting software designed for small businesses, freelancers, and entrepreneurs, simplifying tasks like invoicing, expense tracking, time tracking and more"
+    tech_stack:
+      - python
+      - mysql
+      - wordpress
+      - statamic
+      - ember
+      - fastly
+      - php
+      - docker
+      - flask
+      - jenkins
+      - cucumber
+      - rabbitmq
     bullet_points:
       - Accelerated time-to-market by 2+ months by architecting a phased migration strategy; utilized Fastly custom VCL to seamlessly route traffic between legacy CMS and new hosted WordPress environments
       - Optimized high-volume data ingestion using Python and REST APIs, successfully synchronizing millions of records into a MySQL database for long-term archival and audit readiness
@@ -54,6 +93,17 @@ positions:
     industry: "Various"
     location: "Toronto / Stouffville"
     company_description: "Banking, Jewelry, Capital Markets, Accounting, Internet Services"
+    tech_stack:
+      - rails
+      - donejs
+      - mysql
+      - dotnetcore
+      - progress
+      - mocha
+      - chai
+      - less
+      - sass
+
     bullet_points:
       - Tucows (Rails + Node.js) 2018 - 2019
       - FreshBooks (Rehired after graduation) 2015

@@ -93,6 +93,9 @@ other = "Download Resume"
 [keyAchievements]
 other = "Key Achievements"
 
+[techStack]
+other = "Tech Stack Used"
+
 [demoImageAlt]
 other = "Demo Image"
 

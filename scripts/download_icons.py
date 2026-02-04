@@ -38,7 +38,7 @@ icons = {
     "huggingface": "devicon:huggingface",
     "hugo": "devicon:hugo",
     "jenkins": "logos:jenkins",
-    "js": "logos:javascript",
+    "javascript": "logos:javascript",
     "java": "skill-icons:java-dark",
     "jupyter": "logos:jupyter",
     "kubernetes": "logos:kubernetes",
@@ -72,7 +72,23 @@ icons = {
     "sinatra": "logos:sinatra",
     "progress": "vscode-icons:file-type-progress",
     "antigravity": "material-symbols:antigravity-outline",
-    "proxmox": "devicon-plain:proxmox-wordmark"
+    "proxmox": "devicon-plain:proxmox-wordmark",
+    "pytest": "devicon:pytest-wordmark",
+    "reactquery": "logos:react-query-icon",
+    "playwright": "material-icon-theme:playwright",
+    "materialui": "devicon-plain:materialui",
+    "jest": "skill-icons:jest",
+    "ai": "carbon:ai",
+    "cucumber": "logos:cucumber",
+    "jquery": "skill-icons:jquery",
+    "browserstack": "devicon:browserstack",
+    "wordpress": "devicon-plain:wordpress-wordmark",
+    "statamic": "simple-icons:statamic",
+    "googleanalytics": "logos:google-analytics",
+    "mocha": "devicon:mocha",
+    "chai": "logos:chai",
+    "less": "logos:less",
+    "sass": "skill-icons:sass",
 }
 
 # Delete icons folder

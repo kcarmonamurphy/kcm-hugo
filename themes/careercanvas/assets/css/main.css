@@ -280,7 +280,7 @@
   /* Card hover - simple lift effect */
   .card-hover {
     transition: all var(--hover-transition);
-    cursor: pointer;
+    /* cursor: pointer; */
   }
 
   .card-hover:hover {
