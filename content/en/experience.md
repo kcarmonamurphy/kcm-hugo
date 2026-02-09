@@ -14,6 +14,7 @@ positions:
     period: "May 2022 - January 2026"
     industry: "Civil Infrastructure"
     location: "Toronto / Remote"
+    logo: "/images/citylitics-logo.webp"
     company_description: "AI-powered predictive intelligence company providing sales intelligence for the North American public infrastructure market"
     tech_stack:
       - python
@@ -46,6 +47,7 @@ positions:
     period: "June 2019 - May 2022"
     industry: "POS Financing"
     location: "Toronto"
+    logo: "/images/financeit-logo.webp"
     company_description: "POS financing provider in the home improvement, vehicle, and retail sectors which offers affordable monthly payment plans to business to attract more customers"
     tech_stack:
       - rails
@@ -67,6 +69,7 @@ positions:
     period: "June 2016 - May 2018"
     industry: "Accounting for Small Businesses"
     location: "Toronto"
+    logo: "/images/freshbooks-logo.webp"
     company_description: "Cloud-based accounting software designed for small businesses, freelancers, and entrepreneurs, simplifying tasks like invoicing, expense tracking, time tracking and more"
     tech_stack:
       - python
