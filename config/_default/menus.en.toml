@@ -3,10 +3,10 @@ name = "About"
 url = "/#about"
 weight = 2
 
-# [[main]]
-# name = "Skills"
-# url = "/#skills"
-# weight = 3
+[[main]]
+name = "Skills"
+url = "/#skills"
+weight = 3
 
 [[main]]
 name = "Experience"

@@ -1,8 +1,8 @@
 ---
-title: "Experience"
+title: "Professional Experience"
 type: "homepage"
 intro: >-
-  From structural engineering to AI development, building practical tools that bridge traditional engineering with modern technology.
+  My core professional experience includes software engineering related internships and full time roles, from 2012 to the present day.
 
 resume_url_en: "/files/2026 Resumé Kevin Carmona-Murphy.pdf"
 resume_label: "Download Resume"

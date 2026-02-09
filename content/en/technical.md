@@ -2,7 +2,7 @@
 title: "Tech Stack"
 type: "homepage"
 intro: >-
-  Technical expertise spanning software development, AI/ML, and engineering technologies.
+  I have a strong background using a variety of programming languages, frameworks, tools, databases, testing frameworks and cloud providers.
 
 technical_groups:
   - title: "Programming Languages"
