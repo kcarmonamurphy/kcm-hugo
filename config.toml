@@ -35,7 +35,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
 name = "Kevin Carmona-Murphy"
-profile_image = "/images/kevin-profile.png"
+profile_image = "/images/kevin_profile.png"
 author = "Kevin Carmona-Murphy"
 
 # og_image = "images/felipecordero-og.png"
@@ -53,7 +53,7 @@ calendly_height = "700px"
 copyright = "© 2026 | Kevin Carmona-Murphy"
 
 
-resume_url_en = "/files/2026 Resumé Kevin Carmona-Murphy.pdf"
+resume_url_en = "/files/2026_Resume_Kevin_Carmona-Murphy.pdf"
 resume_label = "View CV"
 
 # Contact Form Configuration

@@ -25,7 +25,6 @@ class PexelsBackground {
         }
     }
 
-
     getQueries() {
         // Get queries from Hugo config, with fallback to default list
         if (window.PEXELS_QUERIES && Array.isArray(window.PEXELS_QUERIES)) {
@@ -63,7 +62,6 @@ class PexelsBackground {
         // Random per_page (1-15) to get different result sets
         const randomPerPage = Math.floor(Math.random() * 15) + 1;
         
-
         // Use local development server if running on localhost
         const apiUrl = window.location.hostname === 'localhost' 
             ? 'http://localhost:8787'
