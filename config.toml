@@ -62,11 +62,9 @@ resume_label = "View CV"
 # 
 # To set up locally, create config.local.toml with:
 # [params]
-#   pexels_api_key = "your_pexels_api_key_here"
 #   formspree_endpoint = "https://formspree.io/f/your_endpoint_here"
 #
 # For production deployment, add these as GitHub Secrets:
-# - PEXELS_API_KEY: Your Pexels API key
 # - FORMSPREE_ENDPOINT: Your Formspree endpoint URL
 
 

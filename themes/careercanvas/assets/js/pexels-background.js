@@ -12,24 +12,8 @@ class PexelsBackground {
         
         // Hide gradient immediately to prevent flash
         this.hideGradientBackground();
-        
-        // Wait for configuration to be loaded, then initialize
-        this.waitForConfig();
-    }
 
-    waitForConfig() {
-        const checkConfig = () => {
-            if (window.PEXELS_API_KEY) {
-                this.apiKey = window.PEXELS_API_KEY;
-                this.init();
-            } else {
-                // Wait a bit more for the configuration to load
-                setTimeout(checkConfig, 100);
-            }
-        };
-        
-        // Start checking after a short delay to allow config to load
-        setTimeout(checkConfig, 100);
+        this.init()
     }
 
     hideGradientBackground() {
@@ -79,14 +63,15 @@ class PexelsBackground {
         // Random per_page (1-15) to get different result sets
         const randomPerPage = Math.floor(Math.random() * 15) + 1;
         
-        const response = await fetch(`https://api.pexels.com/v1/search?query=${randomQuery}&orientation=landscape&size=small&per_page=${randomPerPage}&page=${randomPage}`, {
-            headers: {
-                'Authorization': this.apiKey
-            }
-        });
+
+        // Use local development server if running on localhost
+        const apiUrl = window.location.hostname === 'localhost' 
+            ? 'http://localhost:8787'
+            : 'https://cloudflare-pexels.kevin-carmona-murphy.workers.dev'
+        const response = await fetch(apiUrl)
 
         if (!response.ok) {
-            throw new Error(`Pexels API error: ${response.status}`);
+            throw new Error(`Failed to fetch Pexels photos: ${response.statusText}`);
         }
 
         const data = await response.json();
