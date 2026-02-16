@@ -1,10 +1,5 @@
 # Hugo Site Configuration
 # This is the main configuration file for the Hugo site
-# 
-# SECURITY NOTE: Sensitive data (API keys, endpoints) are handled securely:
-# - Local development: Use config.local.toml (not committed to git)
-# - Production: Environment variables injected via GitHub Actions
-# - See comments below for setup instructions
 
 baseURL = "https://kcarmonamurphy.github.io"
 languageCode = "en-us"
@@ -38,7 +33,7 @@ name = "Kevin Carmona-Murphy"
 profile_image = "/images/kevin_profile.png"
 author = "Kevin Carmona-Murphy"
 
-# og_image = "images/felipecordero-og.png"
+og_image = "images/kcarmonamurphy-og.png"
 
 description = "Structural engineer and full stack developer specializing in AI/ML. Building security and compliance solutions for LLM-based AI agents at Fireraven using Python, React, and modern web technologies."
 
@@ -52,21 +47,8 @@ calendly_height = "700px"
 
 copyright = "© 2026 | Kevin Carmona-Murphy"
 
-
 resume_url_en = "/files/2026_Resume_Kevin_Carmona-Murphy.pdf"
 resume_label = "View CV"
-
-# Contact Form Configuration
-# For security, sensitive endpoints are moved to config.local.toml
-# In production, these are injected via environment variables in GitHub Actions
-# 
-# To set up locally, create config.local.toml with:
-# [params]
-#   formspree_endpoint = "https://formspree.io/f/your_endpoint_here"
-#
-# For production deployment, add these as GitHub Secrets:
-# - FORMSPREE_ENDPOINT: Your Formspree endpoint URL
-
 
 [[params.social]]
 icon = "linkedin-in"
@@ -178,15 +160,16 @@ sectionPagesMenu = 'main'
   # Customize this list to change the types of images that appear
   # The system will randomly select from these queries for each page loads
   queries = [
-    # "galaxy", "nebula", "planet", "astronomy",
-    # "solar system", "black hole", "constellation", "meteor",
+    "galaxy", "nebula", "planet", "astronomy",
+    "solar system", "black hole", "constellation", "meteor",
     # "comet", "asteroid", "space station", "satellite",
     # "structural long span bridges", "structural skycrapers", "astronomy nasa pictures",
     # "universe nasa pictures",
     # "long span bridges",
     # "skyscrapers",
     "the universe galaxies",
-    # "sky and clouds",
+    # "computer code background",
+    "sky and clouds",
     # "galactic core"
     # "nebula nasa pictures",
     # "artificial intelligence",

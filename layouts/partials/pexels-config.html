@@ -33,33 +33,4 @@ SECURITY NOTE:
     console.error('Pexels config element not found');
     window.PEXELS_QUERIES = [];
   }
-
-  // Function to fetch secure configuration at runtime
-  async function fetchConfig() {
-    try {
-      // Use local development server if running on localhost
-      const apiUrl = window.location.hostname === 'localhost' 
-        ? 'http://localhost:3001/api/config' 
-        : '/api/config';
-        
-      const response = await fetch(apiUrl);
-      if (response.ok) {
-        const config = await response.json();
-        window.PEXELS_API_KEY = config.pexelsApiKey;
-        window.FORMSPREE_ENDPOINT = config.formspreeEndpoint;
-        console.log('Configuration loaded securely');
-      } else {
-        console.warn('Failed to load configuration, using fallback');
-      }
-    } catch (error) {
-      console.warn('Error loading configuration:', error);
-    }
-  }
-
-  // Load configuration when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', fetchConfig);
-  } else {
-    fetchConfig();
-  }
 </script>

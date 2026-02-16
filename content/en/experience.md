@@ -66,7 +66,7 @@ positions:
   - company: "FreshBooks"
     company_url: "https://www.freshbooks.com/"
     role: "Full Stack Marketing Developer"
-    period: "June 2016 - May 2018"
+    period: "Summer 2015 and June 2016 - May 2018"
     industry: "Accounting for Small Businesses"
     location: "Toronto"
     logo: "/images/freshbooks-logo.webp"
@@ -90,27 +90,69 @@ positions:
       - Dockerized bare-metal development environment to reduce dev onboarding time by a day
       - Parsed analytics events in firehose RabbitMQ logs to support email campaign initiatives for mobile users
 
-  - company: "Shorter Engagements"
-    role: "Software Developer"
-    period: "2012 - 2019"
-    industry: "Various"
-    location: "Toronto / Stouffville"
-    company_description: "Banking, Jewelry, Capital Markets, Accounting, Internet Services"
+
+  - company: "Tucows"
+    company_url: "https://www.tucows.com/"
+    role: "Javscript Interface Developer"
+    period: "October 2018 - April 2019"
+    industry: "Internet Telecom"
+    location: "Toronto"
+    company_description: "Provider of fibre-optic Internet infrastructure across the US, as well as being the second largest domain name registrar in the world"
+    logo: "/images/tucows-logo.webp"
     tech_stack:
       - rails
       - donejs
-      - mysql
-      - dotnetcore
-      - progress
+      - less
       - mocha
       - chai
-      - less
-      - sass
-
     bullet_points:
-      - Tucows (Rails + Node.js) 2018 - 2019
-      - FreshBooks (Rehired after graduation) 2015
-      - Dundee Capital Markets (.NET MVC) 2014
-      - Mejuri Fine Jewelry (Rails) 2013
-      - Strategic Info Tech (Bank Sfwr, OpenEdge) 2012
+      - Developed front-end features in DoneJS (high performance React style framework), enabling customers to manage their accounts with less friction using the online portal
+      - All front-end features were accompanied by robust component and unit tests written in Mocha + Chai
+      - Added new endpoints to middleware REST API written in Ruby on Rails, backed by RSpec tests
+
+  - company: "Dundee Capital Markets"
+    role: "Full Stack Web Developer"
+    period: "Summer 2014"
+    industry: "Financial Investments"
+    location: "Toronto"
+    logo: "/images/dundee-capital-markets-logo.webp"
+    company_description: "Provider of full-service independent investments, specializing in advisory, underwriting, and research, with a strong focus on mining, energy, and real estate sectors."
+    tech_stack:
+      - bootstrap
+      - dotnetcore
+      - sass
+    bullet_points:
+      - Sourced requirements from high-level executives to redesign and update the company's annual HumourMe stand up comedy event website for desktop, tablet and mobile devices
+      - Onboarded quickly with the ASP.NET MVC5, Bootstrap, and SASS frameworks which were new frameworks to me at the time
+
+
+  - company: "Mejuri Jewelry"
+    company_url: "https://mejuri.com/"
+    role: "Ruby on Rails Developer"
+    period: "Summer 2013"
+    industry: "Jewelry"
+    location: "Toronto"
+    logo: "/images/mejuri-logo.webp"
+    company_description: "Online retailer of sustainbly sourced fine jewelry."
+    tech_stack:
+      - rails
+      - jquery
+    bullet_points:
+      - Managed the mejuri.com Rails web domain with feature requests coming directly from the company's cofounder, Noura Sakkijha
+
+
+  - company: "Strategic Information Technology"
+    company_url: "https://portfolioplus.com/"
+    role: "Web Banking Mobile Application Developer"
+    period: "Summer 2012"
+    industry: "Online Banking for Credit Unions"
+    location: "Stouffville, ON"
+    logo: "/images/portfolio-plus-logo.webp"
+    company_description: "A leading core banking platform in Canada, offering secure, scalable solutions to help optimize efficiency and growth for smaller financial institutions"
+    tech_stack:
+      - progress
+      - jquery
+    bullet_points:
+      - Designed and architected a mobile web front-end using jQuery Mobile for the company's existing online banking software product build with the Progress 4GL language.
+      - The project, completed in 4 months, was launched at the SIT Interchange Conference and was released to customers as of October 2012.
 ---

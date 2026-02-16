@@ -3,11 +3,10 @@
     <h2 class="text-3xl font-bold text-center mb-12 font-heading text-text-primary dark:text-text-primary">Let's Connect</h2>
 
     <div class="flex flex-col lg:flex-row justify-center gap-12">
-      <!-- Contact Form -->
-      <!-- <div class="lg:w-1/2">
+      <div class="lg:w-1/2">
         <div class="contact-card bg-bg dark:bg-bg p-8 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
           <h3 class="text-xl font-semibold mb-6 text-text-primary dark:text-text-primary">{{ i18n "sendMeAMessage" }}</h3>
-          <form id="contact-form" action="" method="POST" class="space-y-6">
+          <form id="contact-form" action="https://formspree.io/f/xpqrgvde" method="POST" class="space-y-6">
             <input type="text" name="_gotcha" style="display:none">
             <div class="flex flex-col sm:flex-row gap-4">
               <div class="flex-1">
@@ -33,7 +32,7 @@
               </button>
             </div>
           </form>
-        </div> -->
+        </div>
       </div>
 
       <!-- Contact Info -->
@@ -142,43 +141,6 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('contact-form');
-    if (form) {
-      form.addEventListener('submit', async function (e) {
-        e.preventDefault();
-        
-        // Get Formspree endpoint from secure configuration
-        const formspreeEndpoint = window.FORMSPREE_ENDPOINT;
-        
-        if (!formspreeEndpoint) {
-          showToast('⚠️ Contact form not configured. Please try again later.');
-          return;
-        }
-        
-        const formData = new FormData(form);
-    
-        try {
-          const response = await fetch(formspreeEndpoint, {
-            method: 'POST',
-            body: formData,
-            headers: {
-              'Accept': 'application/json'
-            }
-          });
-    
-          if (response.ok) {
-            showToast('✅ Thank you! I\'ll get back to you soon.');
-            form.reset();
-          } else {
-            showToast('❌ Error: Please try again.');
-          }
-        } catch (error) {
-          console.error(error);
-          showToast('⚠️ Failed to submit.');
-        }
-      });
-    }
-
     const calendlyOpen = document.getElementById('calendly-open');
     const calendlyModal = document.getElementById('calendly-modal');
     const calendlyClose = document.getElementById('calendly-close');

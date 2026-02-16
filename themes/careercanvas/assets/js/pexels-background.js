@@ -63,10 +63,16 @@ class PexelsBackground {
         const randomPerPage = Math.floor(Math.random() * 15) + 1;
         
         // Use local development server if running on localhost
-        const apiUrl = window.location.hostname === 'localhost' 
+        const protocolHostname = window.location.hostname === 'localhost' 
             ? 'http://localhost:8787'
             : 'https://cloudflare-pexels.kevin-carmona-murphy.workers.dev'
-        const response = await fetch(apiUrl)
+
+        const url = new URL(protocolHostname)
+        url.searchParams.set('query', randomQuery);
+        url.searchParams.set('page', randomPage);
+        url.searchParams.set('per_page', randomPerPage);
+
+        const response = await fetch(url)
 
         if (!response.ok) {
             throw new Error(`Failed to fetch Pexels photos: ${response.statusText}`);

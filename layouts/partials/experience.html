@@ -43,17 +43,13 @@
                 <!-- Company info -->
                 <div class="company-card bg-bg dark:bg-bg p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
                   <h3 class="text-xl font-heading font-bold text-text-primary dark:text-text-primary mb-2">
-                    {{ if $exp.company_url }}
-                      <a href="{{ $exp.company_url }}" target="_blank" rel="noopener noreferrer" class="company-link group">
-                        {{ $exp.company }}
-                        <i class="fas fa-external-link-alt ml-2 text-primary dark:text-primary-light opacity-0 text-sm"></i>
-                        {{ if $exp.logo }}
-                          <img style="height: 160px; width: 100%; margin: 15px auto;" class="object-cover" src="{{ $exp.logo }}" />
-                        {{ end }}
-                      </a>
-                    {{ else }}
+                    <a href="{{ $exp.company_url }}" target="_blank" rel="noopener noreferrer" class="company-link group">
                       {{ $exp.company }}
-                    {{ end }}
+                      <i class="fas fa-external-link-alt ml-2 text-primary dark:text-primary-light opacity-0 text-sm"></i>
+                      {{ if $exp.logo }}
+                        <img style="height: 100px; width: 100%; margin: 15px auto;" class="object-cover" src="{{ $exp.logo }}" />
+                      {{ end }}
+                    </a>
                   </h3>
                   <h4 class="text-primary dark:text-white font-semibold text-lg mb-3">{{ $exp.role }}</h4>
                   
