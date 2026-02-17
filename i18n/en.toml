@@ -27,8 +27,8 @@ other = "Experience"
 [about]
 other = "About"
 
-[blog]
-other = "Blog"
+[projects]
+other = "Projects"
 
 [engineering]
 other = "Engineering"
