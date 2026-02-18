@@ -1,18 +1,14 @@
-# Personal Website
+# kcarmonamurphy.github.io
 
-This is my personal website built with Hugo, a fast and modern static site generator. The site features a clean, responsive design powered by Tailwind CSS and uses my own theme, CareerCanvas.
+Welcome to my personal portfolio site!
 
-## 🚀 Features
+The site is built using Hugo, a lightning-fast static site generator. It uses the sleek and professional [Careercanvas theme](https://github.com/felipecordero/careercanvas), designed and built by the legendary [Felipe Cordero](https://github.com/felipecordero) - thank you so much for open sourcing this wonderful project!
 
-- Built with Hugo static site generator
-- Uses CareerCanvas theme (my own creation)
-- Styled with Tailwind CSS
-- Responsive design with dark mode support
-- Typography plugin for better content formatting
-- Custom layouts and templates
-- Image galleries for project showcases
-- Multilingual support (English/French)
-- Interactive skills and experience sections
+### Site features:
+* Work Experience & Tech Stack: A deep dive into my professional background and the tools/languages I've used on professional projects and hobby tinkering.
+* Projects: A showcase of my key work, including technical challenges I've solved and links to repositories on Github.
+* Connect with me: I’ve integrated Calendly so you can schedule a meeting with me directly through the site. Also, I'm using Formspree to host a contact form without exposing my real email address.
+* Hiding credentials through Cloudflare: To keep things secure, I’ve implemented a Cloudflare Worker which performs an API request to fetch Pexels images for the homepage background on behalf of my portfolio site, in order to not expose the Pexels credentials
 
 ## 🛠️ Prerequisites
 
@@ -21,12 +17,16 @@ Before you begin, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (for npm packages)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
+Optional for Pexels dynamic backgrounds to work:
+- [Cloudflare Workers](https://workers.cloudflare.com/)
+- [Pexels API](https://www.pexels.com/)
+
 ## 🏗️ Installation
 
 1. Clone the repository:
 ```bash
-git clone --recurse-submodules https://github.com/felipecordero/felipecordero.github.io.git
-cd felipecordero.github.io
+git clone
+cd kcarmonamurphy.github.io
 ```
 
 2. Install npm dependencies:
@@ -69,6 +69,10 @@ The built site will be in the `public/` directory.
 
 Note: The CSS build step is necessary because the site uses Tailwind CSS, which needs to be processed to generate the final CSS file with only the used styles.
 
+## Pexels Dynamic Background
+
+Content coming soon
+
 ## 📁 Project Structure
 
 - `assets/` - Contains source files for CSS, JavaScript, and other assets
@@ -84,10 +88,11 @@ Note: The CSS build step is necessary because the site uses Tailwind CSS, which 
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) - Typography plugin for Tailwind CSS
 - [CareerCanvas](https://github.com/felipecordero/careercanvas) - Custom Hugo theme
+- [Cloudflare Workers](https://workers.cloudflare.com/) - Cloudflare workers for serverless functions
 
 ## 👨‍💻 About the Theme
 
-The CareerCanvas theme is my own creation, designed specifically for technical and engineering portfolios. It features:
+The [Careercanvas theme](https://github.com/felipecordero/careercanvas) is a custom Hugo theme designed and built by [Felipe Cordero](https://github.com/felipecordero), who has kindly open sourced the theme for others to use. It is targeted for technical and engineering portfolios. It features:
 - Modern, responsive design
 - Dark mode support
 - Interactive components
@@ -99,14 +104,6 @@ The CareerCanvas theme is my own creation, designed specifically for technical a
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/felipecordero/felipecordero.github.io/issues).
-
 ## 📫 Contact
 
 For any questions or suggestions, please open an issue in the GitHub repository or visit [felipecordero.com](https://felipecordero.com).
-
-## 🚨 Important Note
-
-The built CSS file (`themes/careercanvas/static/css/main.css`) is managed by the theme submodule and should not be committed separately in this repository. If you need to update the CSS, please do so in the theme repository and then update the submodule here. 

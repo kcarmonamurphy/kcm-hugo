@@ -46,7 +46,7 @@ calendly_url = "https://calendly.com/kcarmonamurphy/30min"
 calendly_height = "700px"
 
 copyright = "© 2026 | Kevin Carmona-Murphy"
-theme = "Careercanvas theme courtesy of <a href='https://github.com/felipecordero/careercanvas'>Felipe Cordero ⎘</a>"
+theme = "Careercanvas theme courtesy of <a rel='noopener noreferrer' target='_blank' href='https://github.com/felipecordero/careercanvas'>Felipe Cordero ⎘</a>"
 
 resume_url_en = "/files/2026_Resume_Kevin_Carmona-Murphy.pdf"
 resume_label = "View CV"
